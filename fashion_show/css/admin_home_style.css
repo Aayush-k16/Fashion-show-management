@@ -1,0 +1,92 @@
+*{
+    margin:0; padding:0; box-sizing: border-box;
+}
+
+header  {
+    width: 100%; height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../images/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex; justify-content: center; align-items: center;
+    text-align: left; color: white;
+}
+
+.title {
+    font-size: 50px;
+    text-shadow: 2px 2px 3px black;
+    color: white;
+    width: 100%;
+    position: fixed;
+    top: 5%;
+    left: 40%;
+    text-transform: uppercase;
+}
+
+.one {
+    font-size: 35px;
+    width: 100%;
+    line-height: 80px;
+    text-align: center;
+    color: white;
+    position: fixed;
+    top: 45%;
+    left: 1%;
+}
+
+
+.two {
+    font-size: 35px;
+    width: 100%;
+    line-height: 80px;
+    text-align: center;
+    color: white;
+    position: fixed;
+    top: 55%;
+    right: 1%;
+}
+
+
+section a{
+    padding: 12px 30px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    transition: all .5s ease;
+}
+
+section .btnone {
+    background: #00b894;
+    color: #000;
+    position: fixed;
+    top: 47.7%;
+    right: 16%;
+    text-decoration: none;
+}
+
+.btnone:hover{
+    background: #fff;
+    color: #000;
+}
+
+section .btntwo {
+    background: #00b894;
+    color: #000;
+    position: fixed;
+    top: 58%;
+    right: 14.5%;
+    text-decoration: none;
+}
+
+.btntwo:hover{
+    background: #fff;
+    color: #000;
+}
